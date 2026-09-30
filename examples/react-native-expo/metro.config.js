@@ -13,4 +13,4 @@ config.resolver.nodeModulesPaths = [
 ]
 config.resolver.disableHierarchicalLookup = true
 
-module.exports = config
+module.exports = config;

@@ -49,13 +49,13 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsup",
+    "build": "node init && tsup",
     "test": "jest --testPathIgnorePatterns=integration",
     "test:watch": "jest --watch --testPathIgnorePatterns=integration",
     "test:package": "node scripts/smoke-test.js",
     "lint:package": "publint && attw --pack .",
     "typecheck": "tsc --noEmit",
-    "dev": "tsup --watch",
+    "dev": "node init && tsup --watch",
     "size": "size-limit",
     "size:why": "size-limit --why"
   },

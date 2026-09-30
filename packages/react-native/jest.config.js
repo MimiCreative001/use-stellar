@@ -29,4 +29,4 @@ module.exports = {
   },
   setupFilesAfterEnv: ["<rootDir>/src/test-utils/setup.ts"],
   clearMocks: true,
-}
+};
